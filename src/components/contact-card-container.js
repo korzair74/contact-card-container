@@ -7,23 +7,7 @@ export default class CardContainer extends Component {
     super(props);
 
     this.state = {
-      users: [
-        {
-          id: "",
-          name: "",
-          phone: "",
-          email: "",
-          address: {
-            street: "",
-            suite: "",
-            city: "",
-            zipCode: "",
-          },
-          company: {
-            name: "",
-          },
-        },
-      ],
+      users: [],
     };
   }
   getUsers = () => {

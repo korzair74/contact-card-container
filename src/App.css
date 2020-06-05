@@ -1,18 +1,26 @@
 .App {
-  text-align: center;
+  text-align: left;
+  font-size: 1em;
+  font-weight: 600;
   margin: 0;
 }
-.contact-wrapper {
-  height: 650px;
-}
-.one-column {
-  display: grid;
-  grid-template-columns: 1fr;
-  font-size: 1em;
-}
-
-.two-column {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.contact-card-container {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
+  padding: 30px;
+  background-color: #27556c;
+}
+.contact-wrapper {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 550px;
+  padding: 20px;
+  background-color: #6e91a1;
+  box-shadow: 25px 25px 16px -3px rgba(0, 0, 0, 0.58);
+  transition: 0.5s ease-out;
+}
+.contact-wrapper:hover {
+  width: 650px;
+  font-size: 1.3em;
 }
